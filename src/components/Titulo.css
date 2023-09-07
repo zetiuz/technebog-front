@@ -1,0 +1,83 @@
+.logo-icon10 {
+  position: relative;
+  width: 77px;
+  height: 74px;
+  object-fit: cover;
+  mix-blend-mode: normal;
+}
+.technebog10,
+.un-aliado-de9 {
+  position: relative;
+  line-height: 130%;
+}
+.technebog10 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 342px;
+  height: 46px;
+  flex-shrink: 0;
+}
+.un-aliado-de9 {
+  font-size: var(--subtitulo-size);
+  font-family: var(--subtitulo);
+  text-align: right;
+}
+.titulo {
+  width: 763px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contacto2,
+.nosotros,
+.servicios6 {
+  position: relative;
+  line-height: 130%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 133px;
+  height: 51px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.contacto2,
+.servicios6 {
+  width: 106.25px;
+  height: 26.92px;
+}
+.contacto2 {
+  width: 107.67px;
+}
+.barra-superior,
+.opciones {
+  display: flex;
+  flex-direction: row;
+}
+.opciones {
+  width: 406px;
+  height: 77px;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--gap-sm);
+  font-size: var(--font-size-3xl);
+  font-family: var(--font-montserrat-alternates);
+}
+.barra-superior {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-honeydew);
+  width: 1366px;
+  padding: var(--padding-7xl) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--titulo-size);
+  color: var(--color-mediumaquamarine);
+  font-family: var(--titulo);
+}
