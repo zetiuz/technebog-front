@@ -1,6 +1,7 @@
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import "./BancaEnLineaMensajes.css";
+
 const BancaEnLineaMensajes = () => {
   const navigate = useNavigate();
 
@@ -57,15 +58,15 @@ const BancaEnLineaMensajes = () => {
       <div className="banca-en-linea-mensajes-child2" />
       <div className="banca-en-linea-mensajes-child3" />
       <div className="banca-en-linea-mensajes-child4" />
-      <div className="rectangle-parent8">
-        <div className="group-child10" />
+      <div className="rectangle-parent5">
+        <div className="group-child7" />
         <div className="component-164" onClick={onComponent16ContainerClick}>
           <div className="component-16-child2" />
           <div className="exchange6">Exchange</div>
         </div>
         <div className="component-104" onClick={onComponent10ContainerClick}>
           <div className="component-16-child2" />
-          <div className="consultas-parent2">
+          <div className="consultas-parent3">
             <div className="consultas5">{`Consultas `}</div>
             <img className="icon30" alt="" src="/icon.svg" />
           </div>

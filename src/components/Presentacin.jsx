@@ -1,5 +1,6 @@
 import "./Presentacin.css";
-const Presentacin = ({ onClose }) => {
+
+const Presentacin = () => {
   return (
     <div className="presentacin">
       <div className="technebog-es-una-container">

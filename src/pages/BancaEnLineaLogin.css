@@ -137,19 +137,19 @@
   width: 1366px;
   height: 71px;
 }
-.union-child17,
-.union-child18 {
+.union-child18,
+.union-child19 {
   position: absolute;
   top: 0;
   background-color: var(--color-darkslategray-100);
   height: 48px;
 }
-.union-child17 {
+.union-child18 {
   left: 2px;
   border-radius: var(--br-5xs);
   width: 39px;
 }
-.union-child18 {
+.union-child19 {
   left: 7px;
   width: 34px;
 }
@@ -161,9 +161,15 @@
   z-index: 0;
 }
 .usuario2 {
+  border: 0;
+  font-weight: 600;
+  font-family: var(--font-montserrat-alternates);
+  font-size: var(--font-size-mini);
+  background-color: transparent;
   position: relative;
   line-height: 130%;
-  font-weight: 600;
+  color: var(--color-mediumaquamarine);
+  text-align: left;
   display: flex;
   align-items: center;
   width: 123px;
@@ -204,9 +210,15 @@
   gap: var(--gap-4xs);
 }
 .clave-de-internet {
+  border: 0;
+  font-weight: 600;
+  font-family: var(--font-montserrat-alternates);
+  font-size: var(--font-size-mini);
+  background-color: transparent;
   position: relative;
   line-height: 130%;
-  font-weight: 600;
+  color: var(--color-mediumaquamarine);
+  text-align: left;
   display: flex;
   align-items: center;
   width: 160px;
@@ -252,8 +264,6 @@
   top: 319px;
   left: 110px;
   height: 118px;
-  text-align: left;
-  color: var(--color-mediumaquamarine);
 }
 .component-1-child,
 .entrar9 {

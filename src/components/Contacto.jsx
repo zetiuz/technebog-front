@@ -1,4 +1,5 @@
 import "./Contacto.css";
+
 const Contacto = () => {
   return (
     <div className="contacto">

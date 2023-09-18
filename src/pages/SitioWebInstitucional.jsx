@@ -1,9 +1,10 @@
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
-import Contacto from "../components/Contacto.jsx";
-import Titulo from "../components/Titulo.jsx";
-import Servicio from "../components/Servicio.jsx";
+import Contacto from "../components/Contacto";
+import Titulo from "../components/Titulo";
+import Servicio from "../components/Servicio";
 import "./SitioWebInstitucional.css";
+
 const SitioWebInstitucional = () => {
   const navigate = useNavigate();
 

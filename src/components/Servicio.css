@@ -32,8 +32,8 @@
 .frame-item {
   width: 69.02px;
 }
-.rectangle-parent10,
-.rectangle-parent9 {
+.rectangle-parent6,
+.rectangle-parent7 {
   position: absolute;
   top: 49px;
   width: 69.02px;
@@ -43,14 +43,14 @@
   justify-content: flex-start;
   gap: var(--gap-6xs);
 }
-.rectangle-parent9 {
+.rectangle-parent6 {
   left: 0;
   padding: var(--padding-0) 0.0000762939453125px var(--padding-0)
     var(--padding-0);
   box-sizing: border-box;
   align-items: flex-end;
 }
-.rectangle-parent10 {
+.rectangle-parent7 {
   left: 394.98px;
   align-items: flex-start;
 }

@@ -6,7 +6,7 @@
     opacity: 1;
   }
 }
-.mesa-de-trabajo-1-13 {
+.mesa-de-trabajo-1-11 {
   position: absolute;
   bottom: 0;
   left: calc(50% - 683px);
@@ -45,14 +45,14 @@
   width: 282px;
   height: 116px;
 }
-.bienvenidoa3 {
+.bienvenidoa1 {
   font-weight: 600;
 }
-.bienvenidoa-josefina-mara-container7 {
+.bienvenidoa-josefina-mara-container3 {
   line-break: anywhere;
   width: 100%;
 }
-.bienvenidoa-josefina-mara-container6 {
+.bienvenidoa-josefina-mara-container2 {
   position: absolute;
   top: 155px;
   left: 24px;
@@ -62,22 +62,22 @@
   width: 245px;
   height: 17px;
 }
-.ultima-conexin-3 {
+.ultima-conexin-1 {
   top: 183px;
   left: 24px;
   width: 373px;
   height: 17px;
 }
-.la-informacin-mostrada3,
+.la-informacin-mostrada1,
 .periodo-de-consulta,
-.ultima-conexin-3 {
+.ultima-conexin-1 {
   position: absolute;
   line-height: 130%;
   font-weight: 600;
   display: flex;
   align-items: center;
 }
-.la-informacin-mostrada3 {
+.la-informacin-mostrada1 {
   top: 731px;
   left: calc(50% - 256px);
   font-size: var(--font-size-smi);
@@ -93,25 +93,25 @@
   width: 213px;
   height: 14px;
 }
-.component-16-child1,
-.group-child5 {
+.component-16-item,
+.rectangle-div {
   position: absolute;
   top: 0;
   background-color: var(--color-honeydew);
 }
-.group-child5 {
+.rectangle-div {
   left: calc(50% - 686.5px);
   width: 1373px;
   height: 61px;
 }
-.component-16-child1 {
+.component-16-item {
   height: 100%;
   width: 100%;
   right: 0;
   bottom: 0;
   left: 0;
 }
-.exchange4 {
+.exchange2 {
   position: absolute;
   height: 26.23%;
   width: 53.91%;
@@ -122,7 +122,7 @@
   display: flex;
   align-items: center;
 }
-.component-163 {
+.component-161 {
   position: absolute;
   top: 0;
   left: 3px;
@@ -130,7 +130,7 @@
   height: 61px;
   cursor: pointer;
 }
-.consultas4 {
+.consultas2 {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -141,7 +141,7 @@
   display: flex;
   align-items: center;
 }
-.icon20 {
+.icon9 {
   position: absolute;
   height: 37.5%;
   width: 13.25%;
@@ -154,7 +154,7 @@
   overflow: hidden;
   max-height: 100%;
 }
-.consultas-parent1 {
+.consultas-container {
   position: absolute;
   height: 26.23%;
   width: 67.48%;
@@ -163,7 +163,7 @@
   bottom: 36.07%;
   left: 16.26%;
 }
-.component-103 {
+.component-101 {
   position: absolute;
   top: 0;
   left: 118px;
@@ -171,7 +171,7 @@
   height: 61px;
   cursor: pointer;
 }
-.transferencias4 {
+.transferencias2 {
   position: absolute;
   width: 100%;
   top: 0;
@@ -181,7 +181,7 @@
   display: flex;
   align-items: center;
 }
-.icon21 {
+.icon10 {
   position: absolute;
   height: 37.5%;
   width: 9.69%;
@@ -194,7 +194,7 @@
   overflow: hidden;
   max-height: 100%;
 }
-.transferencias-parent2 {
+.transferencias-container {
   position: absolute;
   height: 26.23%;
   width: 72.9%;
@@ -203,7 +203,7 @@
   bottom: 37.7%;
   left: 13.84%;
 }
-.component-186 {
+.component-182 {
   position: absolute;
   top: 0;
   left: 241px;
@@ -211,7 +211,7 @@
   height: 61px;
   cursor: pointer;
 }
-.icon22 {
+.icon11 {
   position: absolute;
   height: 37.5%;
   width: 14.29%;
@@ -224,7 +224,7 @@
   overflow: hidden;
   max-height: 100%;
 }
-.servicios-parent2 {
+.servicios-container {
   position: absolute;
   height: 26.23%;
   width: 59.69%;
@@ -233,7 +233,7 @@
   bottom: 36.07%;
   left: 20.16%;
 }
-.component-187 {
+.component-183 {
   position: absolute;
   top: 0;
   left: 396px;
@@ -241,7 +241,7 @@
   height: 61px;
   cursor: pointer;
 }
-.salir4 {
+.salir2 {
   position: absolute;
   width: 44.29%;
   top: 36.07%;
@@ -252,25 +252,26 @@
   align-items: center;
   justify-content: center;
 }
-.component-173 {
+.component-171,
+.group-div {
   position: absolute;
+  height: 61px;
+}
+.component-171 {
   top: 0;
   left: 532px;
   width: 70px;
-  height: 61px;
   cursor: pointer;
   text-align: center;
 }
-.rectangle-parent5 {
-  position: absolute;
+.group-div {
   top: 71px;
   left: calc(50% - 686px);
   width: 1373px;
-  height: 61px;
   font-size: var(--font-size-xs);
   color: var(--color-mediumaquamarine);
 }
-.div13 {
+.div1 {
   position: absolute;
   top: 188px;
   left: 1065px;
@@ -281,19 +282,19 @@
   width: 101px;
   height: 17px;
 }
-.group-child6 {
+.group-child1 {
   top: 0;
   left: calc(50% - 430.5px);
   background-color: var(--color-honeydew);
   width: 861px;
   height: 49px;
 }
-.div14,
-.group-child6,
-.icon23 {
+.div2,
+.group-child1,
+.icon12 {
   position: absolute;
 }
-.div14 {
+.div2 {
   top: 16px;
   left: 13px;
   line-height: 130%;
@@ -303,7 +304,7 @@
   width: 101px;
   height: 17px;
 }
-.icon23 {
+.icon12 {
   height: 40.82%;
   width: 2.32%;
   top: 30.61%;
@@ -314,8 +315,8 @@
   overflow: hidden;
   max-height: 100%;
 }
-.rectangle-parent6,
-.rectangle-parent7 {
+.rectangle-parent1,
+.rectangle-parent2 {
   position: absolute;
   top: 365px;
   left: calc(50% - 430px);
@@ -323,48 +324,52 @@
   height: 49px;
   color: var(--color-mediumaquamarine);
 }
-.rectangle-parent7 {
+.rectangle-parent2 {
   top: 460px;
 }
-.component-7-child2 {
+.component-7-inner {
   right: 0;
   bottom: 0;
   border-radius: var(--br-3xs);
   background-color: var(--color-honeydew);
 }
-.component-7-child2,
-.component-74,
-.entrar6 {
+.component-7-inner,
+.component-72,
+.entrar3 {
   position: absolute;
   height: 100%;
   width: 100%;
   top: 0;
   left: 0;
 }
-.entrar6 {
+.entrar3 {
+  font-size: var(--font-size-xl);
   line-height: 130%;
   font-weight: 600;
+  font-family: var(--font-montserrat-alternates);
+  color: var(--color-mediumaquamarine);
+  text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.component-74 {
+.component-72 {
   right: 0;
   bottom: 0;
   overflow: auto;
 }
-.procesar2 {
+.procesar1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
   position: absolute;
   top: 593px;
   left: calc(50% - 85px);
   width: 170px;
   height: 45px;
-  cursor: pointer;
-  text-align: center;
-  font-size: var(--font-size-xl);
-  color: var(--color-mediumaquamarine);
 }
-.procesar2:hover {
+.procesar1:hover {
   animation: 1s ease 0s infinite normal none fade-in;
   opacity: 1;
 }
@@ -385,8 +390,8 @@
   top: 509px;
 }
 .ellipse-div,
-.group-child8,
-.group-child9 {
+.group-child3,
+.group-child4 {
   position: absolute;
   top: 0;
   left: 0;
@@ -397,11 +402,11 @@
   width: 16px;
   height: 16px;
 }
-.group-child8,
-.group-child9 {
+.group-child3,
+.group-child4 {
   left: 81px;
 }
-.group-child9 {
+.group-child4 {
   left: 172px;
 }
 .dia,
@@ -442,15 +447,15 @@
   left: 552px;
   width: 263px;
 }
-.logo-icon4 {
+.logo-icon2 {
   position: relative;
   width: 94.53px;
   height: 74px;
   object-fit: cover;
   mix-blend-mode: normal;
 }
-.technebog4,
-.un-aliado-de4 {
+.technebog2,
+.un-aliado-de2 {
   position: relative;
   line-height: 130%;
   display: flex;
@@ -460,32 +465,32 @@
   height: 46px;
   flex-shrink: 0;
 }
-.un-aliado-de4 {
+.un-aliado-de2 {
   font-size: var(--subtitulo-size);
   font-family: var(--subtitulo);
   height: 31px;
 }
-.component-212,
-.logo-parent1,
-.technebog-parent2 {
+.component-21,
+.logo-container,
+.technebog-container {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.technebog-parent2 {
+.technebog-container {
   width: 358px;
   flex-direction: column;
   gap: var(--gap-12xs);
 }
-.component-212,
-.logo-parent1 {
+.component-21,
+.logo-container {
   width: 453px;
 }
-.logo-parent1 {
+.logo-container {
   flex-direction: row;
   flex-wrap: wrap;
 }
-.component-212 {
+.component-21 {
   position: absolute;
   top: 0;
   left: -3px;

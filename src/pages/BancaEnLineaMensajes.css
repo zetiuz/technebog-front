@@ -155,12 +155,12 @@
   background-color: var(--color-darkslategray-300);
 }
 .component-16-child2,
-.group-child10 {
+.group-child7 {
   position: absolute;
   top: 0;
   background-color: var(--color-honeydew);
 }
-.group-child10 {
+.group-child7 {
   left: calc(50% - 686.5px);
   width: 1373px;
   height: 61px;
@@ -215,7 +215,7 @@
   overflow: hidden;
   max-height: 100%;
 }
-.consultas-parent2 {
+.consultas-parent3 {
   position: absolute;
   height: 26.23%;
   width: 67.48%;
@@ -322,7 +322,7 @@
   cursor: pointer;
   text-align: center;
 }
-.rectangle-parent8 {
+.rectangle-parent5 {
   position: absolute;
   top: 71px;
   left: calc(50% - 686px);

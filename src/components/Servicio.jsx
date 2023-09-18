@@ -1,14 +1,15 @@
 import "./Servicio.css";
+
 const Servicio = () => {
   return (
     <div className="servicio" data-scroll-to="servicioContainer">
       <div className="texto-servicio">
         <div className="frame-group">
-          <div className="rectangle-parent9">
+          <div className="rectangle-parent6">
             <div className="frame-child" />
             <div className="frame-item" />
           </div>
-          <div className="rectangle-parent10">
+          <div className="rectangle-parent7">
             <div className="frame-child" />
             <div className="frame-item" />
           </div>

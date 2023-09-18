@@ -53,10 +53,7 @@
   position: absolute;
   top: 146px;
   left: 96px;
-  font-size: var(--font-size-3xl);
   line-height: 130%;
-  color: var(--color-black);
-  text-align: center;
   display: flex;
   align-items: center;
   width: 377.36px;
@@ -73,10 +70,9 @@
   position: absolute;
   top: 229.05px;
   left: 118px;
+  font-size: var(--font-size-mini);
   line-height: 130%;
   font-weight: 600;
-  color: var(--color-black);
-  text-align: center;
   display: flex;
   align-items: center;
   width: 334px;
@@ -90,19 +86,19 @@
   width: 1366px;
   height: 71px;
 }
-.union-child5,
-.union-child6 {
+.union-child6,
+.union-child7 {
   position: absolute;
   top: 0;
   background-color: var(--color-darkslategray-100);
   height: 48px;
 }
-.union-child5 {
+.union-child6 {
   left: 2px;
   border-radius: var(--br-5xs);
   width: 39px;
 }
-.union-child6 {
+.union-child7 {
   left: 7px;
   width: 34px;
 }
@@ -114,9 +110,15 @@
   z-index: 0;
 }
 .usuario1 {
+  border: 0;
+  font-weight: 600;
+  font-family: var(--font-montserrat-alternates);
+  font-size: var(--font-size-mini);
+  background-color: transparent;
   position: relative;
   line-height: 130%;
-  font-weight: 600;
+  color: var(--color-mediumaquamarine);
+  text-align: left;
   display: flex;
   align-items: center;
   width: 160px;
@@ -222,9 +224,15 @@
   gap: var(--gap-4xs);
 }
 .confirme-la-clave {
+  border: 0;
+  font-weight: 600;
+  font-family: var(--font-montserrat-alternates);
+  font-size: var(--font-size-mini);
+  background-color: transparent;
   position: relative;
   line-height: 130%;
-  font-weight: 600;
+  color: var(--color-mediumaquamarine);
+  text-align: left;
   width: 273px;
   height: 27px;
   flex-shrink: 0;
@@ -265,9 +273,15 @@
   gap: var(--gap-4xs);
 }
 .cedula1 {
+  border: 0;
+  font-weight: 600;
+  font-family: var(--font-montserrat-alternates);
+  font-size: var(--font-size-mini);
+  background-color: transparent;
   position: relative;
   line-height: 130%;
-  font-weight: 600;
+  color: var(--color-mediumaquamarine);
+  text-align: left;
   width: 123px;
   height: 27px;
   flex-shrink: 0;
@@ -343,8 +357,8 @@
   width: 290.12px;
   height: 44.63px;
   cursor: pointer;
-  text-align: center;
   font-size: var(--font-size-xl);
+  color: var(--color-mediumaquamarine);
 }
 .logo-icon5 {
   position: relative;
@@ -395,8 +409,8 @@
   left: 0;
   height: 76px;
   flex-direction: column;
-  text-align: center;
   font-size: var(--titulo-size);
+  color: var(--color-mediumaquamarine);
   font-family: var(--titulo);
 }
 .banca-en-linea-registro {
@@ -405,8 +419,8 @@
   width: 100%;
   height: 768px;
   overflow: hidden;
-  text-align: left;
-  font-size: var(--font-size-mini);
-  color: var(--color-mediumaquamarine);
+  text-align: center;
+  font-size: var(--font-size-3xl);
+  color: var(--color-black);
   font-family: var(--font-montserrat-alternates);
 }

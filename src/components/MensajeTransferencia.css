@@ -1,0 +1,19 @@
+.transferencia-enviada {
+  position: absolute;
+  top: 22px;
+  left: 131px;
+  line-height: 130%;
+}
+.mensaje-transferencia {
+  position: relative;
+  background: linear-gradient(180deg, #2ab68f, #ddfee4);
+  width: 484px;
+  height: 73px;
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+  text-align: center;
+  font-size: var(--font-size-3xl);
+  color: var(--color-black);
+  font-family: var(--font-playfair-display);
+}

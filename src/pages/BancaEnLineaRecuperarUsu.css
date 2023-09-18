@@ -42,7 +42,6 @@
 .digital-wallet2 {
   top: 169px;
   left: 96px;
-  font-size: var(--font-size-3xl);
   justify-content: center;
   width: 377.36px;
   height: 53.76px;
@@ -51,6 +50,7 @@
 .ingrese-su-correo {
   top: 243px;
   left: 112px;
+  font-size: var(--font-size-mini);
   text-align: left;
   width: 348px;
   height: 42px;
@@ -69,7 +69,6 @@
 .recuperacin {
   top: 147px;
   left: 118px;
-  font-size: var(--font-size-3xl);
   line-height: 130%;
   font-weight: 600;
   display: flex;
@@ -86,19 +85,19 @@
   width: 1366px;
   height: 71px;
 }
-.union-child15,
-.union-child16 {
+.union-child16,
+.union-child17 {
   position: absolute;
   top: 536px;
   background-color: var(--color-darkslategray-100);
   height: 48px;
 }
-.union-child15 {
+.union-child16 {
   left: 112px;
   border-radius: var(--br-5xs);
   width: 39px;
 }
-.union-child16 {
+.union-child17 {
   left: 117px;
   width: 34px;
 }
@@ -120,11 +119,15 @@
   height: 48px;
 }
 .correo-electrnico2 {
+  border: 0;
+  font-weight: 600;
+  font-family: var(--font-montserrat-alternates);
+  font-size: var(--font-size-mini);
+  background-color: transparent;
   position: absolute;
   top: 547px;
   left: 160px;
   line-height: 130%;
-  font-weight: 600;
   color: var(--color-mediumaquamarine);
   text-align: left;
   display: flex;
@@ -144,22 +147,14 @@
   overflow: hidden;
   max-height: 100%;
 }
-.component-5 {
-  position: absolute;
+.component-5-formselect {
   width: calc(100% - 1065px);
+  position: absolute;
   top: calc(50% - 90px);
   right: 931px;
   left: 134px;
-  height: 65px;
-}
-.component-7-child3 {
-  right: 0;
-  bottom: 0;
-  border-radius: var(--br-3xs);
-  background-color: var(--color-honeydew);
 }
 .component-7-child3,
-.component-75,
 .entrar8 {
   position: absolute;
   height: 100%;
@@ -167,9 +162,19 @@
   top: 0;
   left: 0;
 }
+.component-7-child3 {
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-honeydew);
+}
 .entrar8 {
+  font-size: var(--font-size-xl);
   line-height: 130%;
   font-weight: 600;
+  font-family: var(--font-montserrat-alternates);
+  color: var(--color-mediumaquamarine);
+  text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -178,19 +183,28 @@
   animation: 1s ease 0s infinite normal none fade-in;
   opacity: 1;
 }
+.component-75,
+.enviar {
+  position: absolute;
+  cursor: pointer;
+}
 .component-75 {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 100%;
+  width: 100%;
+  top: 0;
   right: 0;
   bottom: 0;
+  left: 0;
   overflow: auto;
 }
 .enviar {
-  position: absolute;
   top: 602px;
   left: 140px;
   width: 290.12px;
   height: 44.63px;
-  font-size: var(--font-size-xl);
-  color: var(--color-mediumaquamarine);
 }
 .volver1 {
   position: absolute;
@@ -273,7 +287,7 @@
   height: 768px;
   overflow: hidden;
   text-align: center;
-  font-size: var(--font-size-mini);
+  font-size: var(--font-size-3xl);
   color: var(--color-black);
   font-family: var(--font-montserrat-alternates);
 }

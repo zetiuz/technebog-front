@@ -1,6 +1,7 @@
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import "./BancaEnLineaLogin.css";
+
 const BancaEnLineaLogin = () => {
   const navigate = useNavigate();
 
@@ -63,18 +64,22 @@ const BancaEnLineaLogin = () => {
       <div className="frame-parent">
         <div className="union-parent">
           <div className="union10">
-            <div className="union-child17" />
             <div className="union-child18" />
+            <div className="union-child19" />
           </div>
-          <div className="usuario2">Usuario</div>
+          <input className="usuario2" placeholder="Usuario" type="text" />
           <img className="icon35" alt="" src="/icon9.svg" />
         </div>
         <div className="union-group">
           <div className="union10">
-            <div className="union-child17" />
             <div className="union-child18" />
+            <div className="union-child19" />
           </div>
-          <div className="clave-de-internet">Clave de internet</div>
+          <input
+            className="clave-de-internet"
+            placeholder="Clave de internet"
+            type="text"
+          />
           <img className="icon36" alt="" src="/icon3.svg" />
         </div>
       </div>

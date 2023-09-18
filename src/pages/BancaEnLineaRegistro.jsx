@@ -1,6 +1,7 @@
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import "./BancaEnLineaRegistro.css";
+
 const BancaEnLineaRegistro = () => {
   const navigate = useNavigate();
 
@@ -41,42 +42,50 @@ const BancaEnLineaRegistro = () => {
       <div className="banca-en-linea-registro-item" />
       <div className="usuario">
         <div className="union4">
-          <div className="union-child5" />
           <div className="union-child6" />
+          <div className="union-child7" />
         </div>
-        <div className="usuario1">Usuario</div>
+        <input className="usuario1" placeholder="Usuario" type="text" />
         <img className="icon25" alt="" src="/icon9.svg" />
       </div>
       <div className="correo1">
         <div className="union4">
-          <div className="union-child5" />
           <div className="union-child6" />
+          <div className="union-child7" />
         </div>
-        <div className="usuario1">Correo Electrónico</div>
+        <input
+          className="usuario1"
+          placeholder="Correo Electrónico"
+          type="text"
+        />
         <img className="icon26" alt="" src="/icon2.svg" />
       </div>
       <div className="clave2">
         <div className="union4">
-          <div className="union-child5" />
           <div className="union-child6" />
+          <div className="union-child7" />
         </div>
-        <div className="usuario1">Clave</div>
+        <input className="usuario1" placeholder="Clave" type="text" />
         <img className="icon27" alt="" src="/icon3.svg" />
       </div>
       <div className="confirmar">
         <div className="union4">
-          <div className="union-child5" />
           <div className="union-child6" />
+          <div className="union-child7" />
         </div>
-        <div className="confirme-la-clave">{`Confirme la Clave `}</div>
+        <input
+          className="confirme-la-clave"
+          placeholder="Confirme la Clave "
+          type="text"
+        />
         <img className="icon28" alt="" src="/icon10.svg" />
       </div>
       <div className="cedula">
         <div className="union4">
-          <div className="union-child5" />
           <div className="union-child6" />
+          <div className="union-child7" />
         </div>
-        <div className="cedula1">Cedula</div>
+        <input className="cedula1" placeholder="Cedula" type="text" />
         <img className="icon29" alt="" src="/icon11.svg" />
       </div>
       <div className="component-4" onClick={onComponent4ContainerClick}>
