@@ -5,15 +5,15 @@ const Servicio = () => {
     <div className="servicio" data-scroll-to="servicioContainer">
       <div className="texto-servicio">
         <div className="frame-group">
-          <div className="rectangle-parent6">
+          <div className="rectangle-parent2">
             <div className="frame-child" />
             <div className="frame-item" />
           </div>
-          <div className="rectangle-parent7">
+          <div className="rectangle-parent3">
             <div className="frame-child" />
             <div className="frame-item" />
           </div>
-          <div className="servicios7"> Servicios</div>
+          <div className="servicios1"> Servicios</div>
         </div>
       </div>
       <div className="lista">
@@ -33,7 +33,7 @@ const Servicio = () => {
           <img className="transaccion-icon" alt="" src="/transaccion2@2x.png" />
           <div className="texto">
             <div className="almacenar-monedas-internaciona">
-              Almacenar Monedas Internacionales
+              Monedas Internacionales
             </div>
           </div>
         </div>

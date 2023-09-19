@@ -6,7 +6,7 @@
     opacity: 1;
   }
 }
-.mesa-de-trabajo-1-1 {
+.mesa-de-trabajo-1-12 {
   position: absolute;
   bottom: 0;
   left: calc(50% - 683px);
@@ -46,14 +46,14 @@
   width: 269px;
   height: 116px;
 }
-.bienvenidoa {
+.bienvenidoa2 {
   font-weight: 600;
 }
-.bienvenidoa-josefina-mara-container1 {
+.bienvenidoa-josefina-mara-container5 {
   line-break: anywhere;
   width: 100%;
 }
-.bienvenidoa-josefina-mara-container {
+.bienvenidoa-josefina-mara-container4 {
   top: 155px;
   left: 24px;
   line-height: 130%;
@@ -61,14 +61,14 @@
   align-items: center;
   width: 245px;
 }
-.bienvenidoa-josefina-mara-container,
-.div,
-.ultima-conexin- {
+.bienvenidoa-josefina-mara-container4,
+.div16,
+.ultima-conexin-2 {
   position: absolute;
   font-size: var(--font-size-mini);
   height: 17px;
 }
-.ultima-conexin- {
+.ultima-conexin-2 {
   top: 183px;
   left: 24px;
   line-height: 130%;
@@ -77,20 +77,20 @@
   align-items: center;
   width: 373px;
 }
-.div {
+.div16 {
   top: 192px;
   left: 1065px;
   width: 101px;
 }
 .activos,
-.div,
-.la-informacin-mostrada {
+.div16,
+.la-informacin-mostrada2 {
   line-height: 130%;
   font-weight: 600;
   display: flex;
   align-items: center;
 }
-.la-informacin-mostrada {
+.la-informacin-mostrada2 {
   position: absolute;
   top: 731px;
   left: calc(50% - 256px);
@@ -109,7 +109,7 @@
 }
 .activos,
 .beca,
-.icon3 {
+.icon24 {
   position: absolute;
 }
 .beca {
@@ -123,7 +123,7 @@
   width: 162px;
   height: 14px;
 }
-.icon3 {
+.icon24 {
   height: 1.17%;
   width: 1.24%;
   top: 67.97%;
@@ -135,219 +135,33 @@
   overflow: hidden;
   max-height: 100%;
 }
-.component-16-child,
-.group-child {
-  position: absolute;
-  top: 0;
-  background-color: var(--color-honeydew);
-}
-.group-child {
-  left: calc(50% - 686.5px);
-  width: 1373px;
-  height: 61px;
-}
-.component-16-child {
-  height: 100%;
-  width: 100%;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-.exchange1 {
-  position: absolute;
-  height: 26.23%;
-  width: 53.91%;
-  top: 37.7%;
-  left: 23.48%;
-  line-height: 130%;
-  font-weight: 600;
-  display: flex;
-  align-items: center;
-}
-.component-16 {
-  position: absolute;
-  top: 0;
-  left: 3px;
-  width: 115px;
-  height: 61px;
-  cursor: pointer;
-}
-.consultas1 {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  line-height: 130%;
-  font-weight: 600;
-  display: flex;
-  align-items: center;
-}
-.icon4 {
-  position: absolute;
-  height: 37.5%;
-  width: 13.25%;
-  top: 31.25%;
-  right: -1.2%;
-  bottom: 31.25%;
-  left: 87.95%;
-  border-radius: var(--br-12xs);
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-}
-.consultas-group {
-  position: absolute;
-  height: 26.23%;
-  width: 67.48%;
-  top: 37.7%;
-  right: 16.26%;
-  bottom: 36.07%;
-  left: 16.26%;
-}
-.component-10 {
-  position: absolute;
-  top: 0;
-  left: 118px;
-  width: 123px;
-  height: 61px;
-  cursor: pointer;
-}
-.transferencias1 {
-  position: absolute;
-  width: 100%;
-  top: 0;
-  left: 0;
-  line-height: 130%;
-  font-weight: 600;
-  display: flex;
-  align-items: center;
-}
-.icon5 {
-  position: absolute;
-  height: 37.5%;
-  width: 9.69%;
-  top: 31.25%;
-  right: -0.86%;
-  bottom: 31.25%;
-  left: 91.17%;
-  border-radius: var(--br-12xs);
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-}
-.transferencias-group {
-  position: absolute;
-  height: 26.23%;
-  width: 72.9%;
-  top: 36.07%;
-  right: 13.26%;
-  bottom: 37.7%;
-  left: 13.84%;
-}
-.component-18 {
-  position: absolute;
-  top: 0;
-  left: 241px;
-  width: 159px;
-  height: 61px;
-  cursor: pointer;
-}
-.icon6 {
-  position: absolute;
-  height: 37.5%;
-  width: 14.29%;
-  top: 31.25%;
-  right: -1.3%;
-  bottom: 31.25%;
-  left: 87.01%;
-  border-radius: var(--br-12xs);
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-}
-.servicios-group {
-  position: absolute;
-  height: 26.23%;
-  width: 59.69%;
-  top: 37.7%;
-  right: 20.16%;
-  bottom: 36.07%;
-  left: 20.16%;
-}
-.component-181 {
-  position: absolute;
-  top: 0;
-  left: 396px;
-  width: 129px;
-  height: 61px;
-  cursor: pointer;
-}
-.salir1 {
-  position: absolute;
-  width: 44.29%;
-  top: 36.07%;
-  left: 27.14%;
-  line-height: 130%;
-  font-weight: 600;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.component-17 {
-  position: absolute;
-  top: 0;
-  left: 532px;
-  width: 70px;
-  height: 61px;
-  cursor: pointer;
-  text-align: center;
-}
-.rectangle-parent {
-  position: absolute;
-  top: 71px;
-  left: calc(50% - 686px);
-  width: 1373px;
-  height: 61px;
-  font-size: var(--font-size-xs);
-  color: var(--color-mediumaquamarine);
-}
 .activo-a-debitar-parent,
 .cuenta-destino-parent,
-.group-item {
+.group-child2 {
   width: 338px;
   position: absolute;
   top: 343px;
   left: calc(50% - 345px);
 }
 .cuenta-destino-parent,
-.group-item {
+.group-child2 {
   left: calc(50% + 8px);
 }
-.group-item {
+.group-child2 {
   top: 0;
   left: calc(50% - 169px);
   background-color: var(--color-honeydew);
   height: 49px;
 }
 .monto {
+  width: 197px;
   border: 0;
-  font-weight: 600;
-  font-family: var(--font-montserrat-alternates);
-  font-size: var(--font-size-mini);
   background-color: transparent;
   position: absolute;
-  top: 18px;
-  left: 18px;
-  line-height: 130%;
-  color: var(--color-mediumaquamarine);
-  text-align: left;
-  display: flex;
-  align-items: center;
-  width: 197px;
-  height: 20px;
+  top: 7px;
+  left: 17px;
 }
-.rectangle-group {
+.rectangle-container {
   position: absolute;
   top: 412px;
   left: calc(50% - 345px);
@@ -355,94 +169,36 @@
   height: 49px;
 }
 .concepto {
+  width: 320px;
   border: 0;
-  font-weight: 600;
-  font-family: var(--font-montserrat-alternates);
-  font-size: var(--font-size-mini);
   background-color: transparent;
   position: absolute;
-  top: 13px;
-  left: 18px;
-  line-height: 130%;
-  color: var(--color-mediumaquamarine);
-  text-align: left;
-  display: flex;
-  align-items: center;
-  width: 214px;
-  height: 20px;
+  top: 5px;
+  left: 11px;
 }
-.rectangle-container {
+.procesar2,
+.rectangle-parent1 {
   position: absolute;
   top: 412px;
   left: calc(50% + 8px);
   width: 338px;
   height: 49px;
 }
-.icon7,
-.icon8 {
-  position: absolute;
-  height: 0.78%;
-  width: 0.81%;
-  top: 47.53%;
-  right: 51.98%;
-  bottom: 51.69%;
-  left: 47.22%;
-  border-radius: var(--br-12xs);
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-}
-.icon8 {
-  right: 26.06%;
-  left: 73.13%;
-}
-.component-7-item {
-  right: 0;
-  bottom: 0;
-  border-radius: var(--br-3xs);
-  background-color: var(--color-honeydew);
-}
-.component-7-item,
-.component-71,
-.entrar2 {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-}
-.entrar2 {
-  font-size: var(--font-size-xl);
-  line-height: 130%;
-  font-weight: 600;
-  font-family: var(--font-montserrat-alternates);
-  color: var(--color-mediumaquamarine);
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.component-71 {
-  right: 0;
-  bottom: 0;
-  overflow: auto;
-}
-.procesar {
+.procesar2 {
   cursor: pointer;
   border: 0;
   padding: 0;
   background-color: transparent;
-  position: absolute;
   top: 578px;
   left: calc(50% - 77px);
   width: 170px;
   height: 45px;
 }
-.procesar:hover {
+.procesar2:hover {
   animation: 1s ease 0s infinite normal none fade-in;
   opacity: 1;
 }
-.component-19-child {
+.component-19-child2 {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -454,7 +210,7 @@
   border: 1px solid var(--color-honeydew);
   box-sizing: border-box;
 }
-.component-19,
+.component-194,
 .cuenta-no-registrada {
   position: absolute;
   top: 469px;
@@ -471,15 +227,15 @@
   align-items: center;
   width: 196px;
 }
-.logo-icon1 {
+.logo-icon7 {
   position: relative;
   width: 94.53px;
   height: 74px;
   object-fit: cover;
   mix-blend-mode: normal;
 }
-.technebog1,
-.un-aliado-de1 {
+.technebog7,
+.un-aliado-de7 {
   position: relative;
   line-height: 130%;
   display: flex;
@@ -489,41 +245,248 @@
   height: 46px;
   flex-shrink: 0;
 }
-.un-aliado-de1 {
+.un-aliado-de7 {
   font-size: var(--subtitulo-size);
   font-family: var(--subtitulo);
   height: 31px;
 }
 .component-201,
-.logo-group,
-.technebog-group {
+.logo-parent3,
+.technebog-parent4 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.technebog-group {
+.technebog-parent4 {
   width: 358px;
   flex-direction: column;
   gap: var(--gap-12xs);
 }
 .component-201,
-.logo-group {
+.logo-parent3 {
   width: 453px;
 }
-.logo-group {
+.logo-parent3 {
   flex-direction: row;
   flex-wrap: wrap;
 }
 .component-201 {
   position: absolute;
-  top: -6px;
-  left: 2px;
+  top: -5px;
+  left: -1px;
   height: 77px;
   flex-direction: column;
   text-align: center;
   font-size: var(--titulo-size);
   color: var(--color-mediumaquamarine);
   font-family: var(--titulo);
+}
+.barra-de-opciones-child2,
+.component-16-child2 {
+  position: absolute;
+  height: 96.83%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 3.17%;
+  left: 0;
+  background-color: var(--color-honeydew);
+}
+.component-16-child2 {
+  height: 100%;
+  bottom: 0;
+}
+.inicio9 {
+  position: absolute;
+  height: 26.23%;
+  width: 53.91%;
+  top: 37.7%;
+  left: 23.48%;
+  line-height: 130%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.component-164 {
+  position: absolute;
+  height: 96.83%;
+  width: 6.19%;
+  top: 0;
+  right: 91.92%;
+  bottom: 3.17%;
+  left: 1.89%;
+  cursor: pointer;
+}
+.transferencias8 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  line-height: 130%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+.icon25 {
+  position: absolute;
+  height: 38.86%;
+  width: 9.69%;
+  top: 30.57%;
+  right: -0.86%;
+  bottom: 30.57%;
+  left: 91.17%;
+  border-radius: var(--br-12xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.component-1811,
+.transferencias-parent5 {
+  position: absolute;
+  height: 26.23%;
+  width: 72.9%;
+  top: 36.07%;
+  right: 13.26%;
+  bottom: 37.7%;
+  left: 13.84%;
+}
+.component-1811 {
+  height: 87.3%;
+  width: 11.58%;
+  top: 3.17%;
+  right: 65.99%;
+  bottom: 9.52%;
+  left: 22.43%;
+  cursor: pointer;
+  text-align: left;
+}
+.perfil5 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  line-height: 130%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon26 {
+  position: absolute;
+  height: 25%;
+  width: 11.69%;
+  top: 181.25%;
+  right: -33.77%;
+  bottom: -106.25%;
+  left: 122.08%;
+  border-radius: var(--br-12xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  display: none;
+}
+.component-1812,
+.perfil-parent3 {
+  position: absolute;
+  height: 26.23%;
+  width: 59.69%;
+  top: 37.7%;
+  right: 20.16%;
+  bottom: 36.07%;
+  left: 20.16%;
+}
+.component-1812 {
+  height: 96.83%;
+  width: 6.63%;
+  top: 0;
+  right: 85.36%;
+  bottom: 3.17%;
+  left: 8.01%;
+  cursor: pointer;
+}
+.salir5 {
+  position: absolute;
+  height: 26.23%;
+  width: 44.29%;
+  top: 36.07%;
+  left: 27.14%;
+  line-height: 130%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.component-174,
+.component-195 {
+  position: absolute;
+  height: 92.06%;
+  width: 5.1%;
+  top: 3.17%;
+  right: 51.42%;
+  bottom: 4.76%;
+  left: 43.48%;
+  cursor: pointer;
+}
+.component-195 {
+  height: 95.24%;
+  width: 8.67%;
+  top: 0;
+  right: 76.98%;
+  left: 14.35%;
+}
+.barra-de-opciones8,
+.transferencias9 {
+  position: absolute;
+  top: 0;
+  left: -14px;
+  width: 1375px;
+  height: 63px;
+}
+.transferencias9 {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  line-height: 130%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon27 {
+  position: absolute;
+  height: 25%;
+  width: 7.96%;
+  top: 175%;
+  right: -18.98%;
+  bottom: -100%;
+  left: 111.01%;
+  border-radius: var(--br-12xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  display: none;
+}
+.component-1813 {
+  position: absolute;
+  height: 87.3%;
+  width: 11.58%;
+  top: 4.76%;
+  right: 58.96%;
+  bottom: 7.94%;
+  left: 29.45%;
+  cursor: pointer;
+}
+.barra-de-opciones7 {
+  position: absolute;
+  top: 68px;
+  left: 0;
+  width: 1375px;
+  height: 63px;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-mediumaquamarine);
 }
 .banca-en-linea-terceros {
   position: relative;

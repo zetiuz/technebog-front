@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Form } from "react-bootstrap";
 import MensajeCorreo from "../components/MensajeCorreo";
 import PortalPopup from "../components/PortalPopup";
+import Entrar from "../components/Entrar";
 import { useNavigate } from "react-router-dom";
 import "./BancaEnLineaRecuperarUsu.css";
 
@@ -26,13 +27,13 @@ const BancaEnLineaRecuperarUsu = () => {
     <>
       <div className="banca-en-linea-recuperar-usu">
         <img
-          className="chica-universitaria-que-trabaj-icon1"
+          className="chica-universitaria-que-trabaj-icon"
           alt=""
           src="/chicauniversitariaquetrabajacomputadoraportatildespueslecciones-1@2x.png"
         />
         <div className="banca-en-linea-recuperar-usu-child" />
         <img className="mask-group-icon" alt="" src="/mask-group@2x.png" />
-        <div className="digital-wallet2">Digital Wallet</div>
+        <div className="digital-wallet">Digital Wallet</div>
         <div className="elija-los-datos">Elija los datos a recuperar</div>
         <div className="ingrese-su-correo">{`Ingrese su correo `}</div>
         <img
@@ -42,37 +43,49 @@ const BancaEnLineaRecuperarUsu = () => {
         />
         <div className="recuperacin">Recuperación</div>
         <div className="banca-en-linea-recuperar-usu-inner" />
-        <div className="union9">
-          <div className="union-child16" />
-          <div className="union-child17" />
+        <div className="union">
+          <div className="union-child" />
+          <div className="union-item" />
         </div>
-        <div className="banca-en-linea-recuperar-usu-child1" />
-        <input
-          className="correo-electrnico2"
-          placeholder="Correo Electrónico"
-          type="text"
-        />
-        <img className="group-icon" alt="" src="/icon2.svg" />
+        <div className="rectangle-div" />
+        <Form className="correo-electrnico">
+          <Form.Control type="email" id="1" placeholder="Correo Electrónico" />
+        </Form>
+        <img className="group-icon" alt="" src="/icon7.svg" />
         <Form.Select className="component-5-formselect">
           <option>Seleccione una opción</option>
           <option value="Usuario">Usuario</option>
           <option value="Clave">Clave</option>
         </Form.Select>
         <div className="enviar" onClick={openMensajeCorreo}>
-          <button className="component-75">
-            <div className="component-7-child3" />
-            <div className="entrar8">Enviar</div>
-          </button>
+          <Entrar
+            loginButtonText="Enviar"
+            property1Group19Position="absolute"
+            property1Group19Top="0%"
+            property1Group19Left="0%"
+            property1Group19Cursor="pointer"
+            property1Group19Width="100%"
+            property1Group19Height="100%"
+            property1Group19Right="0%"
+            property1Group19Bottom="0%"
+            property1Group19Border="none"
+            property1Group19Padding="0"
+            property1Group19BackgroundColor="transparent"
+            entrarCursor="unset"
+            entrarBorder="unset"
+            entrarPadding="unset"
+            entrarBackgroundColor="unset"
+          />
         </div>
         <div className="volver" onClick={onVolverContainerClick}>
           <div className="volver1">Volver</div>
         </div>
-        <div className="component-221">
-          <div className="logo-parent3">
-            <img className="logo-icon6" alt="" src="/logo1@2x.png" />
-            <div className="technebog-parent4">
-              <div className="technebog6">{`TechNeBog `}</div>
-              <div className="un-aliado-de6">
+        <div className="component-22">
+          <div className="logo-parent">
+            <img className="logo-icon" alt="" src="/logo@2x.png" />
+            <div className="technebog-parent">
+              <div className="technebog">{`TechNeBog `}</div>
+              <div className="un-aliado-de">
                 Un aliado de su Seguridad Financiera
               </div>
             </div>

@@ -25,7 +25,7 @@
   border-radius: var(--br-mid);
   background-color: var(--color-honeydew);
 }
-.digital-wallet {
+.digital-wallet1 {
   height: 65.15%;
   width: 99.66%;
   top: 16.67%;
@@ -40,12 +40,12 @@
   align-items: center;
   justify-content: center;
 }
-.digital-wallet:hover {
+.digital-wallet1:hover {
   animation: 1s ease 0s infinite normal none fade-in;
   opacity: 1;
 }
 .b1,
-.digital-wallet,
+.digital-wallet1,
 .scroll {
   position: absolute;
 }
@@ -62,11 +62,90 @@
 }
 .scroll {
   width: calc(100% - 14px);
-  top: 75.1px;
-  right: 10px;
-  left: 4px;
+  top: 72.1px;
+  right: 14px;
+  left: 0;
   height: 700px;
   overflow-x: auto;
+}
+.logo-icon1 {
+  position: relative;
+  width: 77px;
+  height: 74px;
+  object-fit: cover;
+  mix-blend-mode: normal;
+}
+.technebog1,
+.un-aliado-de1 {
+  position: relative;
+  line-height: 130%;
+}
+.technebog1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 342px;
+  height: 46px;
+  flex-shrink: 0;
+}
+.un-aliado-de1 {
+  font-size: var(--subtitulo-size);
+  font-family: var(--subtitulo);
+  text-align: right;
+}
+.titulo {
+  width: 763px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contacto,
+.nosotros,
+.servicios {
+  position: relative;
+  line-height: 130%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 133px;
+  height: 51px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.contacto,
+.servicios {
+  width: 106.25px;
+  height: 26.92px;
+}
+.contacto {
+  width: 107.67px;
+}
+.barra-superior,
+.opciones {
+  display: flex;
+  flex-direction: row;
+}
+.opciones {
+  width: 406px;
+  height: 77px;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 14px;
+  font-size: var(--font-size-3xl);
+  font-family: var(--font-montserrat-alternates);
+}
+.barra-superior {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-honeydew);
+  width: 1366px;
+  padding: 26px var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 .frame {
   position: relative;
@@ -88,4 +167,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
+  text-align: center;
+  font-size: var(--titulo-size);
+  color: var(--color-mediumaquamarine);
+  font-family: var(--titulo);
 }

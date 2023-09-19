@@ -1,0 +1,30 @@
+.entrar1,
+.property-1group-19-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.property-1group-19-child {
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-honeydew);
+}
+.entrar1 {
+  line-height: 130%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.property-1group-19 {
+  width: 290.12px;
+  height: 44.63px;
+  overflow: auto;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-mediumaquamarine);
+  font-family: var(--font-montserrat-alternates);
+}

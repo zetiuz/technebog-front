@@ -1,0 +1,94 @@
+.portal-exchange-child {
+  position: absolute;
+  top: 18px;
+  left: 24px;
+  width: 405px;
+  height: 265px;
+}
+.elija-la-moneda-group,
+.elija-la-moneda-parent {
+  width: 179px;
+  position: absolute;
+  top: 133.01px;
+  left: calc(50% - 96px);
+}
+.elija-la-moneda-group {
+  top: 63px;
+}
+.conversin,
+.conversin-wrapper {
+  position: absolute;
+  width: 147px;
+  height: 34px;
+}
+.conversin {
+  border: 0;
+  font-weight: 600;
+  font-family: var(--font-montserrat-alternates);
+  font-size: var(--font-size-mini);
+  background-color: transparent;
+  top: 0;
+  left: 0;
+  line-height: 130%;
+  color: var(--color-mediumaquamarine);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.conversin-wrapper {
+  top: 18px;
+  left: 153px;
+}
+.a,
+.de {
+  position: absolute;
+  top: 108px;
+  left: 213px;
+  line-height: 130%;
+  font-weight: 600;
+}
+.de {
+  top: 40px;
+  left: 208px;
+}
+.procesarvariant2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 248px;
+  left: 140px;
+  width: 170px;
+  height: 26px;
+}
+.monto-wrapper,
+.monto1 {
+  position: absolute;
+  width: 119px;
+}
+.monto1 {
+  border: 0;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+}
+.monto-wrapper {
+  top: 191px;
+  left: 165px;
+  height: 34px;
+}
+.portal-exchange {
+  position: relative;
+  background: linear-gradient(180deg, #2ab68f, #ddfee4);
+  width: 454px;
+  height: 295px;
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--color-mediumaquamarine);
+  font-family: var(--font-montserrat-alternates);
+}

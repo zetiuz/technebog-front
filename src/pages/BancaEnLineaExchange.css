@@ -1,4 +1,12 @@
-.mesa-de-trabajo-1-13 {
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.mesa-de-trabajo-1-1 {
   position: absolute;
   bottom: 0;
   left: calc(50% - 683px);
@@ -6,7 +14,7 @@
   height: 630px;
   object-fit: cover;
 }
-.banca-en-linea-inicio-child {
+.banca-en-linea-exchange-child {
   position: absolute;
   top: 132px;
   left: 0;
@@ -14,7 +22,39 @@
   width: 1366px;
   height: 636px;
 }
-.banca-en-linea-inicio-item {
+.div,
+.div1,
+.tron {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  line-height: 130%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170.1px;
+  height: 14px;
+}
+.div,
+.div1 {
+  top: 0;
+  left: 314px;
+  width: 176.21px;
+}
+.div1 {
+  top: 2px;
+  left: 608px;
+  width: 138.52px;
+}
+.tron-parent {
+  position: absolute;
+  top: 368px;
+  left: 298px;
+  width: 746.52px;
+  height: 16px;
+}
+.banca-en-linea-exchange-item {
   position: absolute;
   top: calc(50% - 130px);
   left: calc(50% - 467px);
@@ -24,32 +64,12 @@
   width: 934px;
   height: 411px;
 }
-.div17 {
+.exchange {
   position: absolute;
-  top: 598px;
-  left: 834px;
-  line-height: 130%;
-  font-weight: 600;
-}
-.div18 {
-  top: 617px;
-  left: 822px;
-}
-.div18,
-.div19,
-.posicin-consolidada {
-  position: absolute;
-  line-height: 130%;
-  font-weight: 600;
-}
-.div19 {
-  top: 641px;
-  left: 822px;
-}
-.posicin-consolidada {
   top: 238px;
   left: calc(50% - 116px);
   font-size: var(--font-size-xl);
+  line-height: 130%;
   color: var(--color-mediumaquamarine);
   display: flex;
   align-items: center;
@@ -57,219 +77,100 @@
   width: 232px;
   height: 116px;
 }
-.bienvenidoa3 {
+.bienvenidoa,
+.exchange {
   font-weight: 600;
 }
-.bienvenidoa-josefina-mara-container7 {
+.bienvenidoa-josefina-mara-container1 {
   line-break: anywhere;
   width: 100%;
 }
-.bienvenidoa-josefina-mara-container6,
-.div20,
-.ultima-conexin-3 {
-  position: absolute;
-  top: 155px;
+.bienvenidoa-josefina-mara-container,
+.ultima-conexin- {
   left: 24px;
   font-size: var(--font-size-mini);
-  line-height: 130%;
   text-align: left;
+}
+.bienvenidoa-josefina-mara-container {
+  position: absolute;
+  top: 155px;
+  line-height: 130%;
   display: flex;
   align-items: center;
   width: 245px;
   height: 17px;
 }
-.div20,
-.ultima-conexin-3 {
+.ultima-conexin- {
   top: 183px;
-  font-weight: 600;
   width: 373px;
 }
-.div20 {
-  top: 189px;
-  left: 1065px;
-  width: 101px;
-}
-.la-informacin-mostrada3,
-.movimientos,
-.nmero-de-la,
-.nombre-de-la,
-.saldo-disponible {
+.div2,
+.la-informacin-mostrada,
+.ultima-conexin- {
   position: absolute;
   line-height: 130%;
+  font-weight: 600;
   display: flex;
   align-items: center;
-  justify-content: center;
-}
-.la-informacin-mostrada3 {
-  top: 731px;
-  left: calc(50% - 256px);
-  font-weight: 600;
-  width: 512px;
   height: 17px;
 }
-.movimientos,
-.nmero-de-la,
-.nombre-de-la,
-.saldo-disponible {
-  top: 0;
-  left: 0;
-  width: 175px;
-  height: 14px;
-}
-.movimientos,
-.nmero-de-la,
-.saldo-disponible {
-  left: 249px;
-  width: 173px;
-}
-.movimientos,
-.saldo-disponible {
-  left: 496px;
-  width: 107px;
-}
-.saldo-disponible {
-  left: 677px;
-  width: 136px;
-}
-.nombre-de-la-cuenta-parent {
-  position: absolute;
-  top: 419px;
-  left: 273px;
-  width: 813px;
-  height: 14px;
+.div2 {
+  top: 180px;
+  left: 1065px;
   font-size: var(--font-size-mini);
-}
-.cambio-en1 {
-  position: absolute;
-  top: 0;
-  left: 496px;
-  line-height: 130%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 149px;
-  height: 14px;
-}
-.nombre-del-activo-group {
-  position: absolute;
-  top: 567px;
-  left: 273px;
-  width: 813px;
-  height: 14px;
-  font-size: var(--font-size-mini);
-}
-.bs,
-.cuenta-corriente,
-.div21 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  line-height: 130%;
-  font-weight: 600;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 167px;
-  height: 14px;
-}
-.bs,
-.div21 {
-  left: 245px;
-  width: 173px;
-}
-.bs {
-  left: 673px;
-  width: 136px;
-}
-.btc-parent,
-.cuenta-corriente-parent,
-.eth-parent,
-.usdt-parent {
-  position: absolute;
-  top: 456px;
-  left: 277px;
-  width: 809px;
-  height: 14px;
-}
-.btc-parent,
-.eth-parent,
-.usdt-parent {
-  top: 591px;
-  left: 273px;
-}
-.btc-parent,
-.eth-parent {
-  top: 617px;
-}
-.eth-parent {
-  top: 646px;
-}
-.banca-en-linea-inicio-inner {
-  position: absolute;
-  top: 334px;
-  left: 215px;
-  background-color: var(--color-honeydew);
-  width: 935px;
-  height: 54px;
-}
-.activos-nacionales {
-  position: absolute;
-  top: 354px;
-  left: 589px;
-  font-size: var(--font-size-xl);
-  line-height: 130%;
-  font-weight: 600;
-  color: var(--color-mediumaquamarine);
   text-align: left;
-  display: flex;
-  align-items: center;
-  width: 206px;
-  height: 14px;
+  width: 101px;
 }
-.banca-en-linea-inicio-child1 {
+.la-informacin-mostrada {
+  top: 731px;
+  left: calc(50% - 256px);
+  font-size: var(--font-size-smi);
+  justify-content: center;
+  width: 512px;
+}
+.banca-en-linea-exchange-inner {
   position: absolute;
-  top: 499px;
+  top: 331px;
   left: 215px;
-  background-color: var(--color-honeydew);
+  background-color: var(--color-darkslategray-200);
   width: 935px;
-  height: 54px;
+  height: 4px;
 }
-.activos-extranjeros {
+.banca-en-linea-exchange-child1,
+.banca-en-linea-exchange-child2 {
   position: absolute;
-  top: 523px;
-  left: 589px;
-  font-size: var(--font-size-xl);
-  line-height: 130%;
-  font-weight: 600;
-  color: var(--color-mediumaquamarine);
-  text-align: left;
-  display: flex;
-  align-items: center;
-  width: 241px;
-  height: 14px;
+  top: 335px;
+  left: 216px;
+  background-color: var(--color-white);
+  width: 935px;
+  height: 66px;
 }
-.icon28 {
+.banca-en-linea-exchange-child2 {
+  top: 401px;
+  background-color: var(--color-darkslategray-300);
+}
+.banca-en-linea-exchange-child3,
+.banca-en-linea-exchange-child4 {
   position: absolute;
-  height: 1.17%;
-  width: 1.24%;
-  top: 67.97%;
-  right: 18.3%;
-  bottom: 30.86%;
-  left: 80.45%;
-  border-radius: var(--br-12xs);
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
+  top: 467px;
+  left: 216px;
+  background-color: var(--color-white);
+  width: 935px;
+  height: 66px;
 }
-.logo-icon8 {
+.banca-en-linea-exchange-child4 {
+  top: 533px;
+  background-color: var(--color-darkslategray-300);
+}
+.logo-icon4 {
   position: relative;
   width: 94.53px;
   height: 74px;
   object-fit: cover;
   mix-blend-mode: normal;
 }
-.technebog8,
-.un-aliado-de8 {
+.technebog4,
+.un-aliado-de4 {
   position: relative;
   line-height: 130%;
   display: flex;
@@ -279,43 +180,126 @@
   height: 46px;
   flex-shrink: 0;
 }
-.un-aliado-de8 {
+.un-aliado-de4 {
   font-size: var(--subtitulo-size);
   font-family: var(--subtitulo);
   height: 31px;
 }
-.component-213,
-.logo-parent4,
-.technebog-parent5 {
+.component-211,
+.frame-div,
+.technebog-parent1 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.technebog-parent5 {
+.technebog-parent1 {
   width: 358px;
   flex-direction: column;
   gap: var(--gap-12xs);
 }
-.component-213,
-.logo-parent4 {
+.component-211,
+.frame-div {
   width: 453px;
 }
-.logo-parent4 {
+.frame-div {
   flex-direction: row;
   flex-wrap: wrap;
 }
-.component-213 {
+.component-211 {
   position: absolute;
   top: 0;
-  left: 0;
-  height: 71px;
+  left: -2px;
+  height: 70px;
   flex-direction: column;
   font-size: var(--titulo-size);
   color: var(--color-mediumaquamarine);
   font-family: var(--titulo);
 }
-.barra-de-opciones-child3,
-.component-16-child3 {
+.cambio-en,
+.ltimo-precio,
+.nombre-del-activo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 211.36px;
+  height: 14px;
+}
+.cambio-en,
+.ltimo-precio {
+  left: 300.73px;
+  width: 208.94px;
+}
+.cambio-en {
+  left: 599.05px;
+  width: 179.96px;
+}
+.nombre-del-activo-parent {
+  position: absolute;
+  top: 317px;
+  left: 286px;
+  width: 779px;
+  height: 14px;
+  font-size: var(--font-size-mini);
+}
+.ada-parent,
+.bnb-parent,
+.icon10,
+.ltc-parent,
+.sol-parent {
+  position: absolute;
+  top: 426px;
+  left: 298px;
+  width: 746.52px;
+  height: 16px;
+}
+.ada-parent,
+.bnb-parent,
+.icon10,
+.sol-parent {
+  top: 492px;
+}
+.bnb-parent,
+.icon10,
+.sol-parent {
+  top: 558px;
+}
+.bnb-parent,
+.icon10 {
+  top: 624px;
+}
+.icon10 {
+  height: 1.17%;
+  width: 1.24%;
+  top: 35.68%;
+  right: 18.23%;
+  bottom: 63.15%;
+  left: 80.53%;
+  border-radius: var(--br-12xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.procesar {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 674px;
+  left: calc(50% - 78px);
+  width: 190px;
+  height: 57px;
+}
+.procesar:hover {
+  animation: 1s ease 0s infinite normal none fade-in;
+  opacity: 1;
+}
+.barra-de-opciones-inner,
+.component-16-inner {
   position: absolute;
   height: 96.83%;
   width: 100%;
@@ -325,11 +309,11 @@
   left: 0;
   background-color: var(--color-honeydew);
 }
-.component-16-child3 {
+.component-16-inner {
   height: 100%;
   bottom: 0;
 }
-.inicio11 {
+.inicio5 {
   position: absolute;
   height: 26.23%;
   width: 53.91%;
@@ -341,7 +325,7 @@
   align-items: center;
   justify-content: center;
 }
-.component-165 {
+.component-162 {
   position: absolute;
   height: 96.83%;
   width: 6.19%;
@@ -351,7 +335,7 @@
   left: 1.89%;
   cursor: pointer;
 }
-.transferencias10 {
+.transferencias4 {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -362,7 +346,7 @@
   display: flex;
   align-items: center;
 }
-.icon29 {
+.icon11 {
   position: absolute;
   height: 38.86%;
   width: 9.69%;
@@ -375,8 +359,8 @@
   overflow: hidden;
   max-height: 100%;
 }
-.component-1814,
-.transferencias-parent7 {
+.component-185,
+.transferencias-parent1 {
   position: absolute;
   height: 26.23%;
   width: 72.9%;
@@ -385,7 +369,7 @@
   bottom: 37.7%;
   left: 13.84%;
 }
-.component-1814 {
+.component-185 {
   height: 87.3%;
   width: 11.58%;
   top: 3.17%;
@@ -395,7 +379,7 @@
   cursor: pointer;
   text-align: left;
 }
-.perfil6 {
+.perfil3 {
   position: absolute;
   width: 100%;
   top: 0;
@@ -406,7 +390,7 @@
   align-items: center;
   justify-content: center;
 }
-.icon30 {
+.icon12 {
   position: absolute;
   height: 25%;
   width: 11.69%;
@@ -420,8 +404,8 @@
   max-height: 100%;
   display: none;
 }
-.component-1815,
-.perfil-parent4 {
+.component-186,
+.perfil-parent1 {
   position: absolute;
   height: 26.23%;
   width: 59.69%;
@@ -430,7 +414,7 @@
   bottom: 36.07%;
   left: 20.16%;
 }
-.component-1815 {
+.component-186 {
   height: 96.83%;
   width: 6.63%;
   top: 0;
@@ -439,7 +423,7 @@
   left: 8.01%;
   cursor: pointer;
 }
-.salir6 {
+.salir3 {
   position: absolute;
   height: 26.23%;
   width: 44.29%;
@@ -451,8 +435,8 @@
   align-items: center;
   justify-content: center;
 }
-.component-175,
-.component-196 {
+.component-172,
+.component-192 {
   position: absolute;
   height: 92.06%;
   width: 5.1%;
@@ -462,22 +446,22 @@
   left: 43.48%;
   cursor: pointer;
 }
-.component-196 {
+.component-192 {
   height: 95.24%;
   width: 8.67%;
   top: 0;
   right: 76.98%;
   left: 14.35%;
 }
-.barra-de-opciones10,
-.transferencias11 {
+.barra-de-opciones4,
+.transferencias5 {
   position: absolute;
   top: 0;
   left: -14px;
   width: 1375px;
   height: 63px;
 }
-.transferencias11 {
+.transferencias5 {
   height: 100%;
   width: 100%;
   left: 0;
@@ -487,7 +471,7 @@
   align-items: center;
   justify-content: center;
 }
-.icon31 {
+.icon13 {
   position: absolute;
   height: 25%;
   width: 7.96%;
@@ -501,7 +485,7 @@
   max-height: 100%;
   display: none;
 }
-.component-1816 {
+.component-187 {
   position: absolute;
   height: 87.3%;
   width: 11.58%;
@@ -511,23 +495,23 @@
   left: 29.45%;
   cursor: pointer;
 }
-.barra-de-opciones9 {
+.barra-de-opciones3 {
   position: absolute;
-  top: 71px;
+  top: 74px;
   left: -2px;
-  width: 1370px;
+  width: 1368px;
   height: 63px;
   font-size: var(--font-size-xs);
   color: var(--color-mediumaquamarine);
 }
-.banca-en-linea-inicio {
+.banca-en-linea-exchange {
   position: relative;
   background-color: var(--color-white);
   width: 100%;
   height: 768px;
   overflow: hidden;
   text-align: center;
-  font-size: var(--font-size-smi);
+  font-size: var(--subtitulo-size);
   color: var(--color-black);
   font-family: var(--font-montserrat-alternates);
 }

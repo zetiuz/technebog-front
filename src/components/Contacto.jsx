@@ -2,10 +2,10 @@ import "./Contacto.css";
 
 const Contacto = () => {
   return (
-    <div className="contacto">
+    <div className="contacto1">
       <div className="instagram-1" />
       <div className="contacto-child" data-scroll-to="rectangle" />
-      <div className="contacto1">Contacto</div>
+      <div className="contacto2">Contacto</div>
       <div className="technebog-ca">@2023 TechNebog C.A.</div>
       <div className="correo2">info@TechNebog.com.ve</div>
       <div className="fax">+58 212-555-5555</div>
@@ -29,8 +29,8 @@ const Contacto = () => {
       />
       <img className="facebook-icon" alt="" src="/facebook.svg" />
       <div className="logo-en-contacto">
-        <img className="logo-icon9" alt="" src="/logo@2x.png" />
-        <div className="technebog9">{`TechNeBog `}</div>
+        <img className="logo-icon10" alt="" src="/logo1@2x.png" />
+        <div className="technebog10">{`TechNeBog `}</div>
       </div>
       <img className="group-icon1" alt="" src="/group.svg" />
     </div>

@@ -1,16 +1,19 @@
 import { useCallback } from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Form } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
+import Entrar from "../components/Entrar";
 import "./BancaEnLineaLogin.css";
 
 const BancaEnLineaLogin = () => {
   const navigate = useNavigate();
 
-  const onOlvidasteTuUsuarioClick = useCallback(() => {
-    navigate("/banca-en-linea-recuperar-usuario-o-clave");
-  }, [navigate]);
-
   const onComponent1ContainerClick = useCallback(() => {
     navigate("/banca-en-linea-inicio");
+  }, [navigate]);
+
+  const onOlvidasteTuUsuarioClick = useCallback(() => {
+    navigate("/banca-en-linea-recuperar-usuario-o-clave");
   }, [navigate]);
 
   const onAquiContainerClick = useCallback(() => {
@@ -24,18 +27,18 @@ const BancaEnLineaLogin = () => {
   return (
     <div className="banca-en-linea-login">
       <img
-        className="chica-universitaria-que-trabaj-icon2"
+        className="chica-universitaria-que-trabaj-icon1"
         alt=""
         src="/chicauniversitariaquetrabajacomputadoraportatildespueslecciones-1@2x.png"
       />
       <div className="banca-en-linea-login-child" />
       <div className="mask-group">
-        <img className="icon34" alt="" src="/489094201-1@2x.png" />
+        <img className="icon7" alt="" src="/489094201-1@2x.png" />
       </div>
       <div className="technebog-digital-wallet-container">
         <span className="technebog-digital-wallet-container1">
           <span>{` `}</span>
-          <span className="technebog-digital-wallet2">{`TechNeBog Digital Wallet `}</span>
+          <span className="technebog-digital-wallet">{`TechNeBog Digital Wallet `}</span>
         </span>
       </div>
       <img className="banca-en-linea-login-item" alt="" src="/vector-251.svg" />
@@ -63,37 +66,56 @@ const BancaEnLineaLogin = () => {
       <div className="banca-en-linea-login-inner" />
       <div className="frame-parent">
         <div className="union-parent">
-          <div className="union10">
-            <div className="union-child18" />
-            <div className="union-child19" />
+          <div className="union1">
+            <div className="union-inner" />
+            <div className="union-child1" />
           </div>
-          <input className="usuario2" placeholder="Usuario" type="text" />
-          <img className="icon35" alt="" src="/icon9.svg" />
+          <Form className="usuario">
+            <Form.Control type="text" id="1" placeholder="Usuario" />
+          </Form>
+          <img className="icon8" alt="" src="/icon20.svg" />
         </div>
         <div className="union-group">
-          <div className="union10">
-            <div className="union-child18" />
-            <div className="union-child19" />
+          <div className="union1">
+            <div className="union-inner" />
+            <div className="union-child1" />
           </div>
-          <input
-            className="clave-de-internet"
-            placeholder="Clave de internet"
-            type="text"
-          />
-          <img className="icon36" alt="" src="/icon3.svg" />
+          <Form className="usuario">
+            <Form.Control
+              type="password"
+              id="1"
+              placeholder="Clave de Intenet"
+            />
+          </Form>
+          <img className="icon9" alt="" src="/icon8.svg" />
         </div>
       </div>
-      <div className="component-1" onClick={onComponent1ContainerClick}>
-        <div className="component-1-child" />
-        <div className="entrar9">Entrar</div>
-      </div>
+      <Entrar
+        loginButtonText="Entrar"
+        property1Group19Position="absolute"
+        property1Group19Top="464px"
+        property1Group19Left="139px"
+        property1Group19Cursor="pointer"
+        property1Group19Width="290.12px"
+        property1Group19Height="44.63px"
+        property1Group19Right="unset"
+        property1Group19Bottom="unset"
+        property1Group19Border="unset"
+        property1Group19Padding="unset"
+        property1Group19BackgroundColor="unset"
+        entrarCursor="unset"
+        entrarBorder="unset"
+        entrarPadding="unset"
+        entrarBackgroundColor="unset"
+        onComponent1ContainerClick={onComponent1ContainerClick}
+      />
       <div className="component-21-wrapper">
-        <div className="component-214">
-          <div className="logo-parent5">
-            <img className="logo-icon8" alt="" src="/logo1@2x.png" />
-            <div className="technebog-parent6">
-              <div className="technebog8">{`TechNeBog `}</div>
-              <div className="un-aliado-de8">
+        <div className="component-21">
+          <div className="logo-container">
+            <img className="logo-icon3" alt="" src="/logo@2x.png" />
+            <div className="technebog-container">
+              <div className="technebog3">{`TechNeBog `}</div>
+              <div className="un-aliado-de3">
                 Un aliado de su Seguridad Financiera
               </div>
             </div>
